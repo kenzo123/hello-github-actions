@@ -1,9 +1,0 @@
-jobs :
-   build :
-     nom : Hello world action 
-    runs-on : ubuntu-latest 
-    steps :
-      - utilise : actions/checkout@v1 
-      - utilise : ./action-a 
-        avec :
-           MON_NOM : " Mona "
